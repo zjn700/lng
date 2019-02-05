@@ -2,26 +2,25 @@
 
 ## updated VS Code
 
-after downloading deb file from Microsoft VS Code site
+After downloading deb file from Microsoft VS Code site: 
 https://code.visualstudio.com/
 
-run the following in the download directory:
+// run the following in the download directory:
 
-sudo dpkg -i code_1.30.2-1546901646_amd64.deb
-sudo apt-get install -f
+    sudo dpkg -i code_1.30.2-1546901646_amd64.deb
+    sudo apt-get install -f
 
-not sure second step is necessary
+// not sure second step is necessary
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
 
-npm install -g @angular/cli
+    npm install -g @angular/cli
 
 // use SCSS style option when installing Angular
 
-
 ## Development server
 
-ng serve --host $(hostname -I)
+    ng serve --host $(hostname -I)
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
@@ -49,7 +48,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 // use SCSS style option when installing Angular
 
 // in your terminal in the root of your project
-npm install bootstrap jquery popper
+    npm install bootstrap jquery popper
 
 Add to node_modules files listed below to the angular.json file
 
