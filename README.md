@@ -1,5 +1,17 @@
 # Lng
 
+## updated VS Code
+
+after downloading deb file from Microsoft VS Code site
+https://code.visualstudio.com/
+
+run the following in the download directory:
+
+sudo dpkg -i code_1.30.2-1546901646_amd64.deb
+sudo apt-get install -f
+
+not sure second step is necessary
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
 
 npm install -g @angular/cli
@@ -33,7 +45,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-Adding Bootstrap 4
+## Adding Bootstrap 4
 // use SCSS style option when installing Angular
 
 // in your terminal in the root of your project
